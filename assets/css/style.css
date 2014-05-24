@@ -1,0 +1,53 @@
+html, body
+{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body
+{
+	color: #3b4d56;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 14px;
+}
+
+h1 span
+{
+	color: #16bdde;
+}
+
+a
+{
+	color: #16bdde;
+	text-decoration: none;
+}
+
+ul
+{
+	list-style-type: square;
+}
+
+#page,
+#footer
+{
+	padding: 10px 30px;
+}
+
+#page
+{
+	border-bottom: 2px solid #16bdde;
+}
+
+#footer
+{
+	border-top: 2px solid #16bdde;
+}
+
+.sticky-footer
+{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
