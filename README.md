@@ -1,8 +1,6 @@
 jQuery.stickyFooter
 ===================
 
-jQuery sticky footer plugin
-
 ## Example
 
 ### HTML
@@ -12,7 +10,6 @@ jQuery sticky footer plugin
 		&lt;div id="page">
 			&lt;p>Content&lt;/p>
 		&lt;/div>
-
 		&lt;div id="footer">
 			&lt;p>Footer&lt;/p>
 		&lt;/div>
@@ -39,7 +36,7 @@ jQuery sticky footer plugin
 
 <pre>
 $("#footer").stickyFooter({
-class: 'sticky-footer',
-content: '#page',
-frame: 'body'
+	class: 'sticky-footer',
+	content: '#page',
+	frame: 'body'
 });</pre>
