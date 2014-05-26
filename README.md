@@ -1,6 +1,8 @@
 jQuery.stickyFooter
 ===================
 
+The jQuery sticky footer plugin sticks your footer, with or without set height, to the bottom of your page. You can also use the sticky footer plugin to stick other elements to the bottom of their parent.
+
 ## Example
 
 ### HTML
@@ -38,5 +40,5 @@ jQuery.stickyFooter
 $("#footer").stickyFooter({
 	class: 'sticky-footer',
 	content: '#page',
-	frame: 'body'
+	frame: this.parent()
 });</pre>
