@@ -43,11 +43,3 @@ ul
 {
 	border-top: 2px solid #16bdde;
 }
-
-.sticky-footer
-{
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	left: 0;
-}
