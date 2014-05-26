@@ -1,5 +1,5 @@
 /*!
- * jQuery Sticky Footer v1.0
+ * jQuery Sticky Footer v1.1
  *
  * Copyright 2014 miWebb and other contributors
  * Released under the MIT license
@@ -7,15 +7,15 @@
 
 (function($) {
 	$.fn.stickyFooter = function(options) {
-		// Variables
-		var element = this;
-
 		// Options
 		var options = $.extend({
 			class: 'sticky-footer',
 			content: '#page',
-			frame: 'body'
+			frame: this.parent()
 		}, options);
+
+		// Variables
+		var element = this;
 
 		// Init
 		stickyFooter(element, options);
