@@ -35,7 +35,7 @@
 		}
 
 		// Set
-		heights.frame = $(options.frame).outerHeight(true);
+		heights.frame = $(options.frame).height();
 		heights.content = $(element).outerHeight(true);
 		heights.footer = $(element).outerHeight(true);
 
