@@ -1,5 +1,5 @@
 /*!
- * jQuery Sticky Footer v1.1
+ * jQuery Sticky Footer v1.2
  *
  * Copyright 2014 miWebb and other contributors
  * Released under the MIT license
@@ -14,37 +14,29 @@
 			frame: this.parent()
 		}, options);
 
-		// Variables
+		// Element
 		var element = this;
 
-		// Init
+		// Initialize
 		stickyFooter(element, options);
 
-		// Resize
+		// Resize event
 		$(window).resize(function() {
 			stickyFooter(element, options);
 		});
 	}
 
-	var stickyFooter = function(element, options) {
-		// Variables
-		var heights = {
-			frame: 0,
-			content: 0,
-			footer: 0
-		}
+	function stickyFooter(element, options) {
+		// Set footer height
+		var height = $(element).outerHeight(true);
 
-		// Set
-		heights.frame = $(options.frame).height();
-		heights.content = $(element).outerHeight(true);
-		heights.footer = $(element).outerHeight(true);
-
+		// Add content height
 		$(options.content).each(function() {
-			heights.content += $(this).outerHeight(true);
+			height += $(this).outerHeight(true);
 		});
 
-		// Class
-		if(heights.frame > heights.content) {
+		// Add the sitcky footer class if the footer & content height are smaller then the frame height
+		if(height < $(options.frame).height()) {
 			$(element).addClass(options.class);
 		} else {
 			$(element).removeClass(options.class);
