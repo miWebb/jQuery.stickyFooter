@@ -8,11 +8,7 @@
 (function($) {
 	$.fn.stickyFooter = function(options) {
 		// Options
-		var options = $.extend({
-			class: 'sticky-footer',
-			content: '#page',
-			frame: this.parent()
-		}, options);
+		var options = $.extend({}, $.fn.stickyFooter.defaults, options);
 
 		// Element
 		var element = this;
@@ -26,6 +22,12 @@
 		});
 	}
 
+	$.fn.stickyFooter.defaults = {
+		class: 'sticky-footer',
+		frame: '',
+		content: '#page'
+	}
+
 	function stickyFooter(element, options) {
 		// Set footer height
 		var height = $(element).outerHeight(true);
@@ -36,7 +38,7 @@
 		});
 
 		// Add the sitcky footer class if the footer & content height are smaller then the frame height
-		if(height < $(options.frame).height()) {
+		if(height < $(options.frame ? options.frame : element.parent()).height()) {
 			$(element).addClass(options.class);
 		} else {
 			$(element).removeClass(options.class);
