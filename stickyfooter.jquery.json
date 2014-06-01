@@ -8,11 +8,15 @@
 	],
 	"version": "1.2.1",
 	"author": {
-		"name": "Michael Webbers"
+		"name": "miWebb",
+		"email": "info@miwebb.com",
+		"url": "https://www.miwebb.com"
 	},
 	"maintainers": [
 		{
-			"name": "Michael Webbers"
+			"name": "Michael Webbers",
+			"email": "m.webbers@miwebb.com",
+			"url": "https://www.miwebb.com"
 		}
 	],
 	"licenses": [

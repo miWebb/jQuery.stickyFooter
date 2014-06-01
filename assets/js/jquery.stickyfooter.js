@@ -1,7 +1,7 @@
 /*!
  * jQuery Sticky Footer v1.2.1
  *
- * Copyright 2014 miWebb and other contributors
+ * Copyright 2014 miWebb
  * Released under the MIT license
  */
 
