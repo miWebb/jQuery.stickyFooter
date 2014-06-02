@@ -1,1 +1,47 @@
-My GitHub Page
+<!doctype html>
+<html>
+	<head>
+		<title>jQuery Sticky Footer</title>
+
+		<meta charset="utf-8" />
+
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="stylesheet" href="assets/css/jquery.stickyfooter.css" />
+
+		<script type="text/javascript" src="assets/js/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.stickyfooter.min.js"></script>
+		<script type="text/javascript">
+
+		$(window).load(function() {
+			$("#footer").stickyFooter({
+				content: "#nav, #page"
+			});
+		});
+
+		</script>
+	</head>
+	<body>
+		<div id="nav">
+			<div class="container">
+				<ul>
+					<li><a href="https://github.com/miWebb/jQuery.stickyFooter/releases">Download</a></li>
+					<li><a href="https://github.com/miWebb/jQuery.stickyFooter">Documentation</a></li>
+					<li><a href="https://github.com/miWebb">GitHub</a></li>
+					<li><a href="https://www.miwebb.com">miWebb</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="page">
+			<div class="container">
+				<h1>jQuery <span>Sticky Footer</span></h1>
+				<p>Check our <a href="https://github.com/miWebb/jQuery.stickyFooter">GitHub</a> for documentation.</p>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="container">
+				<h2>Sticky Footer</h2>
+				<p>The footer wil stick to the bottom of the frame until it hits the content.</p>
+			</div>
+		</div>
+	</body>
+</html>
