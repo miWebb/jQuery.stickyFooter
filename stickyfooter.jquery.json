@@ -25,10 +25,11 @@
 			"url": "https://github.com/miWebb/jQuery.stickyFooter/blob/master/LICENSE"
 		}
 	],
-	"bugs": "https://github.com/miWebb/jQuery.stickyFooter/issues",
-	"homepage": "https://github.com/miWebb/jQuery.stickyFooter",
+	"download": "https://github.com/miWebb/jQuery.stickyFooter/releases",
+	"homepage": "https://miWebb.github.com/jQuery.stickyFooter",
+	"demo": "https://miWebb.github.com/jQuery.stickyFooter",
 	"docs": "https://github.com/miWebb/jQuery.stickyFooter",
-	"download": "https://github.com/miWebb/jQuery.stickyFooter/archive/master.zip",
+	"bugs": "https://github.com/miWebb/jQuery.stickyFooter/issues",
 	"dependencies": {
 		"jquery": ">=1.2.6"
 	}
