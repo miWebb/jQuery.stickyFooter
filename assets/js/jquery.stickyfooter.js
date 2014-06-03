@@ -6,6 +6,8 @@
  */
 
 (function($) {
+	'use strict';
+
 	$.fn.stickyFooter = function(options) {
 		// Options
 		var options = $.extend({}, $.fn.stickyFooter.defaults, options);
