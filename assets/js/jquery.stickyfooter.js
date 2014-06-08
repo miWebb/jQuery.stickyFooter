@@ -5,7 +5,7 @@
  * Released under the MIT license
  */
 
-(function($) {
+(function($, window, undefined) {
 	'use strict';
 
 	$.fn.stickyFooter = function(options) {
@@ -46,4 +46,4 @@
 			$(element).removeClass(options.class);
 		}
 	}
-})(jQuery);
+})(jQuery, window);
