@@ -24,8 +24,7 @@ The jQuery sticky footer plugin sticks your footer, with or without set height, 
 {
 	position: absolute;
 	bottom: 0;
-	right: 0;
-	left: 0;
+	width: 100%;
 }</pre>
 
 ### Javascript
