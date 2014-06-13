@@ -22,6 +22,9 @@
 		$(window).resize(function() {
 			stickyFooter(element, options);
 		});
+
+		// Chain
+		return this;
 	}
 
 	$.fn.stickyFooter.defaults = {
