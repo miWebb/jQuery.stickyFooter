@@ -3,8 +3,11 @@
 	"title": "jQuery.stickFooter",
 	"description": "The jQuery sticky footer plugin sticks your footer, with or without set height, to the bottom of your page. You can also use the sticky footer plugin to stick other elements to the bottom of their parent.",
 	"keywords": [
-		"sticky",
-		"footer"
+		"element",
+		"footer",
+		"jquery",
+		"responsive",
+		"sticky"
 	],
 	"version": "1.2.2",
 	"author": {
