@@ -4,38 +4,39 @@
 		<title>jQuery Sticky Footer</title>
 
 		<meta charset="utf-8" />
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
 
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400" />
-		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="stylesheet" href="assets/css/color.css" />
+		<link rel="stylesheet" href="assets/css/kelson.css" />
 		<link rel="stylesheet" href="assets/css/jquery.stickyfooter.css" />
+		<link rel="stylesheet" href="assets/css/style.css" />
 
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script type="text/javascript" src="assets/js/jquery.stickyfooter.min.js"></script>
-		<script type="text/javascript">
-
-		$(window).load(function() {
-			$("#footer").stickyFooter();
-		});
-
-		</script>
+		<script type="text/javascript" src="assets/js/main.js"></script>
 	</head>
-	<body>
+	<body class="color-background">
 		<div id="nav">
 			<div class="container">
-				<h1>jQuery <span>Sticky Footer</span></h1>
+				<div class="logo">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 166 152">
+						<path d="M86.22,84.54A19.28,19.28,0,1,1,98.86,108.7,19.28,19.28,0,0,1,86.22,84.54m-43.37.6a45.37,45.37,0,0,0,7,3.8,53.5,53.5,0,0,0,1.09,11,51.19,51.19,0,0,0-7,5.68c-2.39,2.83-1.74,4.48-.7,6.41l4.34,8.09,3.65,6.78c1,1.93,2.06,3.39,5.73,3a50.94,50.94,0,0,0,8.48-2.68,53.51,53.51,0,0,0,7.8,6.58,50.23,50.23,0,0,0-1,8.71c0.27,3.7,1.9,4.42,4,5.08l7.34,2.3L85,150.26l7.34,2.29c2.09,0.66,3.84,1,6.17-1.89a47.23,47.23,0,0,0,4-7.34,53.55,53.55,0,0,0,11-.79,46.29,46.29,0,0,0,5,6.39c2.78,2.44,4.45,1.82,6.4.81l8.16-4.2L139.9,142c1.95-1,3.43-2,3.06-5.68a43,43,0,0,0-2.11-7.33,53.91,53.91,0,0,0,7.94-9.13,43.27,43.27,0,0,0,7.65.83c3.69-.27,4.42-1.89,5.07-4,0.47-1.49,1.65-5.27,2.3-7.35l0.44-1.41,2.3-7.35c0.65-2.09,1-3.84-1.9-6.16a41.28,41.28,0,0,0-6.35-3.5,53.75,53.75,0,0,0-1.21-13.34A40.42,40.42,0,0,0,162.6,73c2.39-2.82,1.74-4.49.7-6.41l-4.35-8.09-3.63-6.77c-1-1.94-2.06-3.4-5.74-3a42,42,0,0,0-7,2.12,54,54,0,0,0-9.08-7.37,42.19,42.19,0,0,0,.78-7.37c-0.26-3.69-1.9-4.42-4-5.08L123,28.81l-1.42-.44-7.34-2.3c-2.09-.66-3.84-1-6.17,1.89a44.91,44.91,0,0,0-3.75,6.9A53.86,53.86,0,0,0,93,36a45,45,0,0,0-5-6.33c-2.78-2.44-4.45-1.81-6.4-.81l-6.84,3.53L66.6,36.61c-1.95,1-3.43,2-3.06,5.68A49.27,49.27,0,0,0,66,50.53a53.75,53.75,0,0,0-7.44,9.15,41.63,41.63,0,0,0-7.46-.79c-3.69.26-4.42,1.89-5.07,4-0.47,1.48-1.65,5.26-2.29,7.34l-0.45,1.41C42.61,73.7,41.43,77.49,41,79c-0.65,2.09-1,3.85,1.9,6.16" transform="translate(-1 -1)"></path>
+						<path d="M25.43,27.69a9.47,9.47,0,1,1,2.05,13.23,9.47,9.47,0,0,1-2.05-13.23M5.17,21.1A21.84,21.84,0,0,0,7.81,24a26.93,26.93,0,0,0-1.23,5.28,25.72,25.72,0,0,0-4.16,1.53,2.34,2.34,0,0,0-1.34,2.88c0.18,1.06.74,4.45,0.74,4.45,0.18,1.05.49,3,.62,3.73a2.33,2.33,0,0,0,2.2,2.29A25.07,25.07,0,0,0,9,44.21a26.62,26.62,0,0,0,2.59,4.3A23.85,23.85,0,0,0,9.75,52.4a2.33,2.33,0,0,0,1,3l3,2.23L14.45,58l3,2.23a2.34,2.34,0,0,0,3.17.1,23.6,23.6,0,0,0,3-2.79A26.06,26.06,0,0,0,28.92,59a23.25,23.25,0,0,0,1.33,3.78,2.34,2.34,0,0,0,2.85,1.39l4.46-.67,3.74-.56a2.33,2.33,0,0,0,2.32-2.16A21.09,21.09,0,0,0,43.81,57a26.13,26.13,0,0,0,5.13-3,21,21,0,0,0,3.43,1.6,2.33,2.33,0,0,0,3-1.05l2.23-3.05L58,50.92l2.23-3.05a2.33,2.33,0,0,0,.09-3.17,20.47,20.47,0,0,0-2.4-2.63,26.47,26.47,0,0,0,1.55-6.4,19.45,19.45,0,0,0,3.28-1.26,2.33,2.33,0,0,0,1.34-2.87c-0.17-1.06-.74-4.45-0.74-4.45-0.17-1.05-.49-3-0.62-3.73a2.33,2.33,0,0,0-2.2-2.28A20,20,0,0,0,57,21a27.21,27.21,0,0,0-3.06-4.87,20,20,0,0,0,1.52-3.3,2.32,2.32,0,0,0-1-3L51.34,7.58l-0.59-.43-3-2.23a2.34,2.34,0,0,0-3.18-.1A22.41,22.41,0,0,0,41.7,7.44a26.56,26.56,0,0,0-5.44-1.24,22.38,22.38,0,0,0-1.33-3.74,2.32,2.32,0,0,0-2.84-1.38l-3.74.56-4.46.67a2.32,2.32,0,0,0-2.32,2.16,24.12,24.12,0,0,0-.17,4.21,26.33,26.33,0,0,0-4.91,3.08,21.47,21.47,0,0,0-3.34-1.56,2.34,2.34,0,0,0-3,1.06L7.92,14.29l-0.43.59L5.26,17.94a2.33,2.33,0,0,0-.09,3.17" transform="translate(-1 -1)"></path>
+					</svg>
+				</div>
+
 				<ul>
 					<li><a href="https://github.com/miWebb/jQuery.stickyFooter/releases">Download</a></li>
-					<li><a href="https://github.com/miWebb/jQuery.stickyFooter">Documentation</a></li>
-					<li><a href="https://github.com/miWebb">GitHub</a></li>
+					<li><a href="https://github.com/miWebb/jQuery.stickyFooter">GitHub</a></li>
 					<li><a href="https://www.miwebb.com">miWebb</a></li>
 				</ul>
 			</div>
 		</div>
 		<div id="page">
-			<section class="container">
-				<h1>Description</h1>
+			<div class="container">
+				<h1 class="plugin-name">jQuery Sticky Footer</h1>
 				<p>The jQuery sticky footer plugin sticks your footer,<br />with or without set height, to the bottom of your page.<br />You can also use the sticky footer plugin to stick other<br /> elements to the bottom of their parent.</p>
-			</section>
+			</div>
 		</div>
 		<div id="footer">
 			<div class="container">

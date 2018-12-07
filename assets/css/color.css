@@ -1,0 +1,69 @@
+@keyframes color-background {
+    0% {
+        background-color: #d65d5b;
+    }
+    33.3333333333% {
+        background-color: #ed8745;
+    }
+    66.6666666667% {
+        background-color: #7a576d;
+    }
+    100% {
+        background-color: #d65d5b;
+    }
+}
+.color-background {
+    animation: color-background 15s linear infinite;
+}
+
+@keyframes color-border {
+    0% {
+        border-color: #d65d5b;
+    }
+    33.3333333333% {
+        border-color: #ed8745;
+    }
+    66.6666666667% {
+        border-color: #7a576d;
+    }
+    100% {
+        border-color: #d65d5b;
+    }
+}
+.color-border {
+    animation: color-border 15s linear infinite;
+}
+
+@keyframes color-text {
+    0% {
+        color: #d65d5b;
+    }
+    33.3333333333% {
+        color: #ed8745;
+    }
+    66.6666666667% {
+        color: #7a576d;
+    }
+    100% {
+        color: #d65d5b;
+    }
+}
+.color-text {
+    animation: color-text 15s linear infinite;
+}
+
+.color-overlay {
+    position: relative;
+}
+.color-overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.85;
+    animation: color-background 15s linear infinite;
+}
+
+/*# sourceMappingURL=color.css.map */

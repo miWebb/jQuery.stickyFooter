@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Kelson";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../webfonts/kelson-thin.eot");
+  src: url("../webfonts/kelson-thin.eot?iefix") format("eot"), url("../webfonts/kelson-thin.ttf") format("truetype"), url("../webfonts/kelson-thin.woff") format("woff"), url("../webfonts/kelson-thin.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Kelson";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../webfonts/kelson-light.eot");
+  src: url("../webfonts/kelson-light.eot?iefix") format("eot"), url("../webfonts/kelson-light.ttf") format("truetype"), url("../webfonts/kelson-light.woff") format("woff"), url("../webfonts/kelson-light.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Kelson";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../webfonts/kelson.eot");
+  src: url("../webfonts/kelson.eot?iefix") format("eot"), url("../webfonts/kelson.ttf") format("truetype"), url("../webfonts/kelson.woff") format("woff"), url("../webfonts/kelson.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Kelson";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../webfonts/kelson-medium.eot");
+  src: url("../webfonts/kelson-medium.eot?iefix") format("eot"), url("../webfonts/kelson-medium.ttf") format("truetype"), url("../webfonts/kelson-medium.woff") format("woff"), url("../webfonts/kelson-medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Kelson";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../webfonts/kelson-bold.eot");
+  src: url("../webfonts/kelson-bold.eot?iefix") format("eot"), url("../webfonts/kelson-bold.ttf") format("truetype"), url("../webfonts/kelson-bold.woff") format("woff"), url("../webfonts/kelson-bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Kelson";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../webfonts/kelson-extra-bold.eot");
+  src: url("../webfonts/kelson-extra-bold.eot?iefix") format("eot"), url("../webfonts/kelson-extra-bold.ttf") format("truetype"), url("../webfonts/kelson-extra-bold.woff") format("woff"), url("../webfonts/kelson-extra-bold.woff2") format("woff2");
+}
+
+/*# sourceMappingURL=kelson.css.map */

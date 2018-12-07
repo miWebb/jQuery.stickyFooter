@@ -1,0 +1,47 @@
+// _color.scss
+
+$color-attributes: (
+	('background', 'background-color'),
+	('border', 'border-color'),
+	('text', 'color'),
+);
+
+$color-animation: 15s linear infinite !default;
+$colors: #d65d5b, #ed8745, #7a576d !default;
+
+@each $color-attribute-name, $color-attribute in $color-attributes {
+	@keyframes color-#{$color-attribute-name} {
+		@each $color in $colors {
+			$i: index($colors, $color) - 1;
+
+			#{$i / length($colors) * 100%} {
+				#{$color-attribute}: $color;
+			}
+		}
+
+		100% {
+			#{$color-attribute}: nth($colors, 1);
+		}
+	}
+
+	.color-#{$color-attribute-name} {
+		animation: color-#{$color-attribute-name} $color-animation;
+	}
+}
+
+.color-overlay
+{
+	position: relative;
+
+	&::before
+	{
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0.85;
+		animation: color-background $color-animation;
+	}
+}

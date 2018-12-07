@@ -1,0 +1,23 @@
+// kelson.scss
+
+$kelson-weights: (
+	('kelson-thin', 100),
+	('kelson-light', 300),
+	('kelson', 400),
+	('kelson-medium', 500),
+	('kelson-bold', 700),
+	('kelson-extra-bold', 800)
+);
+
+@each $kelson-weight-key, $kelson-weight-value in $kelson-weights {
+	@font-face {
+	font-family: 'Kelson';
+	font-style: normal;
+	font-weight: $kelson-weight-value;
+	src: url('../webfonts/#{$kelson-weight-key}.eot');
+	src: url('../webfonts/#{$kelson-weight-key}.eot?iefix') format('eot'),
+	     url('../webfonts/#{$kelson-weight-key}.ttf') format('truetype'),
+	     url('../webfonts/#{$kelson-weight-key}.woff') format('woff'),
+	     url('../webfonts/#{$kelson-weight-key}.woff2') format('woff2');
+	  }
+}
